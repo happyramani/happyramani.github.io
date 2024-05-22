@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="TicTacToe.css">
+    <script src="TicTacToe.js"></script>
+</head>
+
+</html>
+
+<body>
+    <div id="main">
+        <h2><span style="color: #f54b9b;">T</span><span style="color: gray;">i</span><span style="color: #047b6a;">c</span> 
+            <span style="color: #01c1d2;">T</span><span style="color: #C264FF;">a</span><span style="color: #FF6B6B;">c</span>
+            <span style="color: #00c04b;">T</span><span style="color: #4ADEDE;">o</span><span style="color: #0496C7;">e</span></h2>
+        <div id="mainChild">
+            <div class="row">
+                <input type="text" class="cell" id="b1" onclick="func_1(); myFunction()">
+                <input type="text" class="cell" id="b2" onclick="func_2(); myFunction()">
+                <input type="text" class="cell" id="b3" onclick="func_3(); myFunction()">
+            </div>
+            <div class="row">
+                <input type="text" class="cell" id="b4" onclick="func_4(); myFunction()">
+                <input type="text" class="cell" id="b5" onclick="func_5(); myFunction()">
+                <input type="text" class="cell" id="b6" onclick="func_6(); myFunction()">
+            </div>
+            <div class="row">
+                <input type="text" class="cell" id="b7" onclick="func_7(); myFunction()">
+                <input type="text" class="cell" id="b8" onclick="func_8(); myFunction()">
+                <input type="text" class="cell" id="b9" onclick="func_9(); myFunction()">
+            </div>
+        </div>
+        <p id="turn">Player X Turn</p>
+        <button id="button" onclick="funcReset()">Reset</button>
+    </div>
+</body>
